@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Muscle Massacre",
+    "slug": "muscle-massacre",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.musclemassacre.prototype"
+    },
+    "android": {
+      "package": "com.musclemassacre.prototype",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/icon.png",
+        "backgroundColor": "#09090C"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/brand/icon.png",
+      "name": "Muscle Massacre",
+      "description": "Built different. A Muscle Massacre training app concept.",
+      "themeColor": "#09090C",
+      "backgroundColor": "#09090C",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-status-bar"
+    ],
+    "scheme": "musclemassacre"
+  }
+}
